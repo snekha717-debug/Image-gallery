@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Visual Gallery</h1>
+    </header>
+
+    <main class="gallery-container">
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=1" alt="Beautiful Landscape"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=2" alt="Ocean Waves"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=3" alt="Forest Path"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=4" alt="City Skyline"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=5" alt="Desert Dunes"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=6" alt="Mountain Peak"></div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
